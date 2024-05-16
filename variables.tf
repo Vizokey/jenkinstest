@@ -9,3 +9,5 @@ variable "ami" {
   type        = string
   default     = "ami-07caf09b362be10b8"
 }
+
+#Add terraformtfvars for the vars to make it cleaner
