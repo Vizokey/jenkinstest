@@ -3,12 +3,4 @@ resource "aws_instance" "test-server" {
   instance_type = var.instance_type
 }
 
-resource "aws_instance" "test-server" {
-  ami           = var.ami
-  instance_type = var.instance_type
-}
 
-resource "aws_instance" "test-server" {
-  ami           = var.ami
-  instance_type = var.instance_type
-}
